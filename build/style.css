@@ -135,6 +135,11 @@ body {
     border-color: #33A1FD;
 }
 
+#profile {
+    padding-top: 20px;
+
+}
+
 #profile img {
     width: 400px;
     border-radius: 8px;
@@ -143,6 +148,8 @@ body {
     border-style: double;
     border-collapse: collapse;
     background-color: black;
+    
+
 }
 
 ul {
