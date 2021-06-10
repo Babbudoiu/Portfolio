@@ -28,13 +28,16 @@ body {
 .center {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 50%
 }
 
 /* Navbar container */
 .navbar {
-    overflow: hidden;
     background-color: black;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+      
   }
   
   
@@ -42,6 +45,8 @@ body {
   .dropdown {
     float: left;
     overflow: hidden;
+    
+    
   }
   
   /* Dropdown button */
@@ -59,6 +64,7 @@ body {
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: black;
+    
   }
   
   /* Dropdown content (hidden by default) */
@@ -69,6 +75,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+
     
   }
   
@@ -87,6 +94,7 @@ body {
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
     background-color: black;
+    color: yellow;
   }
   
   /* Show the dropdown menu on hover */
