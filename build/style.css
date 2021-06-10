@@ -268,7 +268,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 1428px) {
+@media only screen and (max-width: 1444px) {
    #fccProj img {
         max-width: 25vh;
         margin-left: 10px;
@@ -318,6 +318,51 @@ footer {
 
     p {
         text-align:inherit;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    ol {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 670px) {
+   
+    #fccProj a {
+        max-width: 100vh;
+        font-size: 30%;
+    }
+
+    #fccProj img {
+        max-width: 18vh;
+    }
+
+    body {
+        width: 100vh;
+        overflow-x: hidden;
+    }
+
+    #profile img {
+        max-width: 20vh;
+    }
+
+    .container  {
+        font-size: 120%;
+        text-overflow: inherit;
+        text-align: inherit;
+    }
+
+    p {
+        text-align:inherit;
+        font-size: 20px;
     }
 
     h2 {
