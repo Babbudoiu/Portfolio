@@ -3,6 +3,16 @@
 * {
     font-family: 'Mate SC', serif;
 }
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto;
+    
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -10,13 +20,14 @@
     text-align: center;
     font-size: 25px;
     min-width: 100vh;
-   
+    margin: 0 auto; 
+    color: white;
+    
 }
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 50%;
 }
 
@@ -58,6 +69,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
   }
   
   /* Links inside the dropdown */
@@ -69,6 +81,7 @@
     display: block;
     text-align: left;
     font-size: 25px;
+    
   }
   
   /* Add a grey background color to dropdown links on hover */
@@ -90,6 +103,9 @@
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    min-width: 100%;
+    margin: 0 auto;
+
     
 }
 
@@ -160,8 +176,7 @@ ol {
 h1 {
     color:yellow;
     text-align: center;
-    margin-bottom: -5vh;
-    background-color: black;
+    min-width: 100vh;
     font-size: 50px;
     text-shadow: 2px 2px 5px red;
 }
@@ -186,7 +201,8 @@ a {
     flex-wrap: wrap;
     padding: 10px 15px;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 5px b;
+    text-shadow: 2px 2px 5px black;
+    
 }
 
 a:hover {
