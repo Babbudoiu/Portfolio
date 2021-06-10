@@ -89,7 +89,7 @@ body {
 .background {
     background-image:  linear-gradient(
         rgba(0, 0, 0, 0.45), 
-        rgba(0, 0, 0, 0.5)), url(/negative-space-coding.jpg);
+        rgba(0, 0, 0, 0.5)), url(negative-space-coding.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -137,6 +137,12 @@ body {
 
 #profile img {
     width: 400px;
+    border-radius: 8px;
+    border: solid #33A1FD;
+    border-width: 10px;
+    border-style: double;
+    border-collapse: collapse;
+    
 }
 
 ul {
