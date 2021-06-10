@@ -122,7 +122,7 @@ body {
 #fccProj a {
     background-color: black;
     border-radius: 10px;
-    width: 25%;
+    max-width: 25%;
     margin-left: 40px;
     margin-right: 40px;
     border: solid;
@@ -222,3 +222,116 @@ footer {
     min-width: 100vh;
 
 }
+
+@media only screen and (max-width: 1256px) {
+   
+    #fccProj a {
+        max-width: 100vh;
+    }
+
+    #fccProj img {
+        max-width: 100vh;
+    }
+
+    body {
+        width: 100vh;
+        overflow-x: hidden;
+    }
+
+    #profile img {
+        max-width: 10vh;
+    }
+
+    .container  {
+        font-size: 150%;
+        text-align: inherit;
+    }
+
+    p {
+        text-align:inherit;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    ol {
+        text-align: center;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1428px) {
+   #fccProj img {
+        max-width: 25vh;
+        margin-left: 10px;
+    }
+
+    #fccProj a {
+        margin-left: 60px;
+    }
+
+    body {
+        min-width: 100%;
+        overflow-x:hidden;
+    }
+
+    #profile img {
+        max-width: 25vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 750px) {
+   
+    #fccProj a {
+        max-width: 100vh;
+        font-size: 40%;
+    }
+
+    #fccProj img {
+        max-width: 20vh;
+    }
+
+    body {
+        width: 100vh;
+        overflow-x: hidden;
+    }
+
+    #profile img {
+        max-width: 30vh;
+    }
+
+    .container  {
+        font-size: 150%;
+        text-overflow: inherit;
+        text-align: inherit;
+    }
+
+    p {
+        text-align:inherit;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    ol {
+        text-align: center;
+    }
+
+}
+
+
