@@ -231,7 +231,7 @@ footer {
 
 }
 
-/* @media only screen and (max-width: 1256px) {
+ @media only screen and (min-width: 875px) and (max-width: 1168px) {
    
     #fccProj a {
         max-width: 100vh;
@@ -241,8 +241,9 @@ footer {
         max-width: 100vh;
     }
 
+
     body {
-        width: 100vh;
+        min-width: 100vh;
         overflow-x: hidden;
     }
 
@@ -275,7 +276,7 @@ footer {
 
 }
 
-
+/*
 @media only screen and (max-width: 1444px) {
    #fccProj img {
         max-width: 25vh;
