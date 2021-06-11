@@ -252,9 +252,9 @@ footer {
     }
 
     .container  {
-        font-size: 120%;
-        text-overflow: inherit;
-        text-align: inherit;
+        min-width: 100vh;
+        font-size: 20px;
+      
     }
 
     p {
