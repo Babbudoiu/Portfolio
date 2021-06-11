@@ -234,17 +234,16 @@ footer {
 @media only screen and (max-width: 873px) {
    
     #fccProj a {
-        max-width: 100vh;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     #fccProj img {
-        max-width: 18vh;
-        margin-left: 20px;
+        max-width: 15vh;
+        
     }
 
     body {
-        width: 100vh;
+        min-width: 100vh;
         overflow-x: hidden;
     }
 
