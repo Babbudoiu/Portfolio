@@ -302,14 +302,13 @@ footer {
 @media only screen and (min-width: 875px) and (max-width: 1101px) {
    
     #fccProj a {
-        max-width: 100vh;
-        font-size: 15px;
+        font-size: 18px;
         
     }
 
     #fccProj img {
-        max-width: 15vw;
-        margin-left: 20px;
+        max-width: 20vh;
+     
     }
 
     body {
@@ -344,6 +343,50 @@ footer {
     }
 
 }  
+
+@media only screen and (min-width: 874px)and (max-width: 900px) {
+    #fccProj img {
+         max-width: 18vh ;
+         
+     }
+ 
+     #fccProj a {
+         font-size: 16px;
+     }
+ 
+     body {
+         min-width: 100vh;
+         overflow-x:hidden;
+     }
+ 
+     #profile img {
+         max-width: 25vh;
+     }
+ 
+ 
+ } 
+
+ @media only screen and (min-width: 901px)and (max-width: 916px) {
+    #fccProj img {
+         max-width: 20vh ;
+         
+     }
+ 
+     #fccProj a {
+         font-size: 16px;
+     }
+ 
+     body {
+         min-width: 100vh;
+         overflow-x:hidden;
+     }
+ 
+     #profile img {
+         max-width: 30vh;
+     }
+ 
+ 
+ } 
 
 @media only screen and (max-width: 873px) {
    
