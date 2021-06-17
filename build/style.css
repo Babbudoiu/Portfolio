@@ -144,6 +144,13 @@ body {
     border-color: #33A1FD;
 }
 
+#codeNatProj a {
+    background-color: black;
+    border: solid;
+    border-radius: 10px;
+    border-color: #33A1FD;
+}
+
 #contacts ul {
     list-style: none;
 }
